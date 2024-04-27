@@ -1,17 +1,24 @@
-# Exclude node_modules directory
+# Ignore node_modules directory
 node_modules/
 
-# Exclude temporary build or cache files
-.tmp/
-build/
-dist/
-cache/
+# Ignore compiled CSS files
+*.css
 
-# Exclude package manager lock files
+# Ignore compiled JavaScript files
+*.js
+
+# Ignore log files
+*.log
+
+# Ignore build output directory
+/build/
+
+# Ignore IDE and editor specific files
+.vscode/
+.idea/
+
+# Ignore environment specific files
+.env
+
+# Ignore package-lock.json file
 package-lock.json
-
-# Exclude common test files and directories
-test/
-__tests__/
-*.spec.js
-*.test.js
