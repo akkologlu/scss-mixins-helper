@@ -1,0 +1,17 @@
+# Exclude node_modules directory
+node_modules/
+
+# Exclude temporary build or cache files
+.tmp/
+build/
+dist/
+cache/
+
+# Exclude package manager lock files
+package-lock.json
+
+# Exclude common test files and directories
+test/
+__tests__/
+*.spec.js
+*.test.js

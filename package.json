@@ -1,0 +1,29 @@
+{
+  "name": "scss-mixins-helper",
+  "version": "1.0.1",
+  "description": "Contains some reusable scss mixin parts.",
+  "main": "src/mixins.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akkologlu/scss-mixins-helper.git"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "ui",
+    "frontend",
+    "mixin"
+  ],
+  "author": "akkologlu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akkologlu/scss-mixins-helper/issues"
+  },
+  "homepage": "https://github.com/akkologlu/scss-mixins-helper#readme",
+  "dependencies": {
+    "sass": "^1.75.0"
+  }
+}
